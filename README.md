@@ -13,7 +13,7 @@ Second argument - an array which can you enqueue multiple file in specific page.
 
 If you want to enqueue a javascript use this.
 
-**do_action( 'wp_enqueue_scripts', ['filenam.js'], 'jQuery', true )**
+**do_action( 'wp_enqueue_scripts', ['filenam.js'], 'jquery', true )**
 
 First argument - a predefined hook of wordpress.
 
