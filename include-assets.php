@@ -4,7 +4,7 @@ if ( ! defined( 'ABSPATH' ) )
 	exit;
 
 /* Exit if function exist */
-if ( ! function_exists( 'include_assets' ) )
+if ( function_exists( 'include_assets' ) )
 	exit;
 	
 /**
