@@ -2,10 +2,6 @@
 /* Exit if accessed directly */
 if ( ! defined( 'ABSPATH' ) ) 
 	exit;
-
-/* Exit if function exist */
-if ( function_exists( 'include_assets' ) )
-	exit;
 	
 /**
  * Enqueue Style/Script for specific page
